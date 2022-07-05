@@ -10,7 +10,7 @@ from sqlalchemy import UniqueConstraint
 from producer import publish
 import requests
 
-
+#Customer app
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql://root:root@db/main'
 CORS(app)
